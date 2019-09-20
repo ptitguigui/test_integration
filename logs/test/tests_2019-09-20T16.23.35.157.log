@@ -1,0 +1,350 @@
+2019-09-20 16:23:35 DEBUG QuizFrame:128 - Added question panel
+2019-09-20 16:23:35 DEBUG AbstractQuizView:32 - For MockAnswerView Got user input: ""
+2019-09-20 16:23:35 DEBUG AbstractQuizView:32 - For MockAnswerView Got user input: "dummy_input"
+2019-09-20 16:23:35 DEBUG AnswerFactoryTest:14 - Starting test: testBuildAnswer() for AnswerFactoryTest
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "Tolkien"
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create NumericalAnswer, will try YesNoAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create YesNoAnswer, will try MultipleChoiceAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create MultipleChoiceAnswer, will try MultiAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create MultiAnswer, will try TextAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create TextAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "10"
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create NumericalAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "vrai"
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create NumericalAnswer, will try YesNoAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create YesNoAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "Frodo ; Pippin ; Merry ; Sam"
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create NumericalAnswer, will try YesNoAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create YesNoAnswer, will try MultipleChoiceAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create MultipleChoiceAnswer, will try MultiAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create MultiAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "Bill | Bourricot | Robert | Jolly Jumper"
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create NumericalAnswer, will try YesNoAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create YesNoAnswer, will try MultipleChoiceAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create MultipleChoiceAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactoryTest:19 - SUCCESS: testBuildAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactoryTest:29 - finished test: testBuildAnswer
+
+2019-09-20 16:23:35 DEBUG QuizFactoryTest:14 - Starting test: testMissingPonyDetected() for QuizFactoryTest
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "Tolkien"
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create NumericalAnswer, will try YesNoAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create YesNoAnswer, will try MultipleChoiceAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create MultipleChoiceAnswer, will try MultiAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create MultiAnswer, will try TextAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create TextAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "vrai"
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create NumericalAnswer, will try YesNoAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create YesNoAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "9"
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create NumericalAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "faux"
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create NumericalAnswer, will try YesNoAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create YesNoAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "1954"
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create NumericalAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "Frodo ; Pippin ; Merry ; Sam"
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create NumericalAnswer, will try YesNoAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create YesNoAnswer, will try MultipleChoiceAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create MultipleChoiceAnswer, will try MultiAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create MultiAnswer
+2019-09-20 16:23:35 DEBUG QuizFactoryTest:19 - SUCCESS: testMissingPonyDetected
+2019-09-20 16:23:35 DEBUG QuizFactoryTest:29 - finished test: testMissingPonyDetected
+
+2019-09-20 16:23:35 DEBUG QuizFactoryTest:14 - Starting test: testMissingPointsForDetected() for QuizFactoryTest
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "Tolkien"
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create NumericalAnswer, will try YesNoAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create YesNoAnswer, will try MultipleChoiceAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create MultipleChoiceAnswer, will try MultiAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create MultiAnswer, will try TextAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create TextAnswer
+2019-09-20 16:23:35 DEBUG QuizFactoryTest:19 - SUCCESS: testMissingPointsForDetected
+2019-09-20 16:23:35 DEBUG QuizFactoryTest:29 - finished test: testMissingPointsForDetected
+
+2019-09-20 16:23:35 DEBUG QuizFactoryTest:14 - Starting test: testDummyHasRightAnswerTypes() for QuizFactoryTest
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "Tolkien"
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create NumericalAnswer, will try YesNoAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create YesNoAnswer, will try MultipleChoiceAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create MultipleChoiceAnswer, will try MultiAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create MultiAnswer, will try TextAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create TextAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "vrai"
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create NumericalAnswer, will try YesNoAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create YesNoAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "9"
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create NumericalAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "faux"
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create NumericalAnswer, will try YesNoAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create YesNoAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "1954"
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create NumericalAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "Frodo ; Pippin ; Merry ; Sam"
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create NumericalAnswer, will try YesNoAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create YesNoAnswer, will try MultipleChoiceAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create MultipleChoiceAnswer, will try MultiAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create MultiAnswer
+2019-09-20 16:23:35 DEBUG AnswerFactory:27 - creating answer for input text: "Bill | Bourricot | Robert | Jolly Jumper"
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create NumericalAnswer, will try YesNoAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerHandler:21 - Failed to create YesNoAnswer, will try MultipleChoiceAnswerHandler
+2019-09-20 16:23:35 DEBUG AnswerFactory:31 - did create MultipleChoiceAnswer
+2019-09-20 16:23:35 DEBUG QuizFactoryTest:19 - SUCCESS: testDummyHasRightAnswerTypes
+2019-09-20 16:23:35 DEBUG QuizFactoryTest:29 - finished test: testDummyHasRightAnswerTypes
+
+2019-09-20 16:23:35 INFO  QuestionModel:60 - wrong, the right answer was : null
+2019-09-20 16:23:35 INFO  QuestionModel:58 - correct (0 pts)
+2019-09-20 16:23:35 DEBUG QuestionTest:14 - Starting test: testGetNbPts() for QuestionTest
+2019-09-20 16:23:35 DEBUG QuestionTest:19 - SUCCESS: testGetNbPts
+2019-09-20 16:23:35 DEBUG QuestionTest:29 - finished test: testGetNbPts
+
+2019-09-20 16:23:35 DEBUG QuestionTest:14 - Starting test: testGetText() for QuestionTest
+2019-09-20 16:23:35 DEBUG QuestionTest:19 - SUCCESS: testGetText
+2019-09-20 16:23:35 DEBUG QuestionTest:29 - finished test: testGetText
+
+2019-09-20 16:23:35 DEBUG QuestionTest:14 - Starting test: testGetAnswer() for QuestionTest
+2019-09-20 16:23:35 DEBUG QuestionTest:19 - SUCCESS: testGetAnswer
+2019-09-20 16:23:35 DEBUG QuestionTest:29 - finished test: testGetAnswer
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testSimpleTextIsValid() for MultiAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testSimpleTextIsValid
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testSimpleTextIsValid
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testNumberAndYesNoInvalid() for MultiAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testNumberAndYesNoInvalid
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testNumberAndYesNoInvalid
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testDoesNotAcceptInCorrectAnswer() for MultiAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testDoesNotAcceptInCorrectAnswer
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testDoesNotAcceptInCorrectAnswer
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testDoesAcceptCorrectAnswer() for MultiAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testDoesAcceptCorrectAnswer
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testDoesAcceptCorrectAnswer
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testPrompt() for MultiAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testPrompt
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testPrompt
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testIsValidThrowsWithNullParam() for MultiAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testIsValidThrowsWithNullParam
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testIsValidThrowsWithNullParam
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testIsValidDoesNotThrowException() for MultiAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testIsValidDoesNotThrowException
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testIsValidDoesNotThrowException
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testIsCorrectWithNullParamThrowsException() for MultiAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testIsCorrectWithNullParamThrowsException
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testIsCorrectWithNullParamThrowsException
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testGetPossibleAnswers() for MultipleChoiceAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testGetPossibleAnswers
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testGetPossibleAnswers
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testWhenIsCorrect() for MultipleChoiceAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testWhenIsCorrect
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testWhenIsCorrect
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testCorrectParse() for MultipleChoiceAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testCorrectParse
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testCorrectParse
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testWhenIsNotCorrect() for MultipleChoiceAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testWhenIsNotCorrect
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testWhenIsNotCorrect
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testWhenIsNotValid() for MultipleChoiceAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testWhenIsNotValid
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testWhenIsNotValid
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testWhenIsValid() for MultipleChoiceAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testWhenIsValid
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testWhenIsValid
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testGetPrompt() for MultipleChoiceAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testGetPrompt
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testGetPrompt
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testNullConstructionThrows() for MultipleChoiceAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testNullConstructionThrows
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testNullConstructionThrows
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testWhenAnswerIsNull() for MultipleChoiceAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testWhenAnswerIsNull
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testWhenAnswerIsNull
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testGetSetWhenOK() for MultipleChoiceAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testGetSetWhenOK
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testGetSetWhenOK
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testIsValidThrowsWithNullParam() for MultipleChoiceAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testIsValidThrowsWithNullParam
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testIsValidThrowsWithNullParam
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testIsValidDoesNotThrowException() for MultipleChoiceAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testIsValidDoesNotThrowException
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testIsValidDoesNotThrowException
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testIsCorrectWithNullParamThrowsException() for MultipleChoiceAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testIsCorrectWithNullParamThrowsException
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testIsCorrectWithNullParamThrowsException
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testDoesNotAcceptInCorrectAnswer() for NumericalAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testDoesNotAcceptInCorrectAnswer
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testDoesNotAcceptInCorrectAnswer
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testNumberIsValid() for NumericalAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testNumberIsValid
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testNumberIsValid
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testDoesAcceptCorrectAnswer() for NumericalAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testDoesAcceptCorrectAnswer
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testDoesAcceptCorrectAnswer
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testPrompt() for NumericalAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testPrompt
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testPrompt
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testNonNumberIsInvalid() for NumericalAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testNonNumberIsInvalid
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testNonNumberIsInvalid
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testNullConstructionThrows() for NumericalAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testNullConstructionThrows
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testNullConstructionThrows
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testWhenAnswerIsNull() for NumericalAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testWhenAnswerIsNull
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testWhenAnswerIsNull
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testGetSetWhenOK() for NumericalAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testGetSetWhenOK
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testGetSetWhenOK
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testIsValidThrowsWithNullParam() for NumericalAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testIsValidThrowsWithNullParam
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testIsValidThrowsWithNullParam
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testIsValidDoesNotThrowException() for NumericalAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testIsValidDoesNotThrowException
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testIsValidDoesNotThrowException
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testIsCorrectWithNullParamThrowsException() for NumericalAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testIsCorrectWithNullParamThrowsException
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testIsCorrectWithNullParamThrowsException
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testPromptWhenIsYes() for YesNoAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testPromptWhenIsYes
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testPromptWhenIsYes
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testWhenIsCorrect() for YesNoAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testWhenIsCorrect
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testWhenIsCorrect
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testWhenIsNotCorrect() for YesNoAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testWhenIsNotCorrect
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testWhenIsNotCorrect
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testWhenIsNotValid() for YesNoAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testWhenIsNotValid
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testWhenIsNotValid
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testWhenIsValid() for YesNoAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testWhenIsValid
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testWhenIsValid
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testNullConstructionThrows() for YesNoAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testNullConstructionThrows
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testNullConstructionThrows
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testWhenAnswerIsNull() for YesNoAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testWhenAnswerIsNull
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testWhenAnswerIsNull
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testGetSetWhenOK() for YesNoAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testGetSetWhenOK
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testGetSetWhenOK
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testIsValidThrowsWithNullParam() for YesNoAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testIsValidThrowsWithNullParam
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testIsValidThrowsWithNullParam
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testIsValidDoesNotThrowException() for YesNoAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testIsValidDoesNotThrowException
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testIsValidDoesNotThrowException
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testIsCorrectWithNullParamThrowsException() for YesNoAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testIsCorrectWithNullParamThrowsException
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testIsCorrectWithNullParamThrowsException
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testSimpleTextIsValid() for TextAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testSimpleTextIsValid
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testSimpleTextIsValid
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testNumberAndYesNoInvalid() for TextAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testNumberAndYesNoInvalid
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testNumberAndYesNoInvalid
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testDoesNotAcceptInCorrectAnswer() for TextAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testDoesNotAcceptInCorrectAnswer
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testDoesNotAcceptInCorrectAnswer
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testDoesAcceptCorrectAnswer() for TextAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testDoesAcceptCorrectAnswer
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testDoesAcceptCorrectAnswer
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testPrompt() for TextAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testPrompt
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testPrompt
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testNullConstructionThrows() for TextAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testNullConstructionThrows
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testNullConstructionThrows
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testWhenAnswerIsNull() for TextAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testWhenAnswerIsNull
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testWhenAnswerIsNull
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testGetSetWhenOK() for TextAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testGetSetWhenOK
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testGetSetWhenOK
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testIsValidThrowsWithNullParam() for TextAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testIsValidThrowsWithNullParam
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testIsValidThrowsWithNullParam
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testIsValidDoesNotThrowException() for TextAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testIsValidDoesNotThrowException
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testIsValidDoesNotThrowException
+
+2019-09-20 16:23:35 DEBUG AnswerTest:14 - Starting test: testIsCorrectWithNullParamThrowsException() for TextAnswerTest
+2019-09-20 16:23:35 DEBUG AnswerTest:19 - SUCCESS: testIsCorrectWithNullParamThrowsException
+2019-09-20 16:23:35 DEBUG AnswerTest:29 - finished test: testIsCorrectWithNullParamThrowsException
+
+2019-09-20 16:23:35 DEBUG IQuizController:62 - Checking valid answer at index 0 with answer + "test" CORRECT
+2019-09-20 16:23:35 DEBUG IQuizController:62 - Checking valid answer at index 1 with answer + "one" CORRECT
+2019-09-20 16:23:35 DEBUG IQuizController:62 - Checking valid answer at index 2 with answer + "two" CORRECT
+2019-09-20 16:23:35 DEBUG IQuizController:106 - Checking correct answer at index 0 + with answer + "test" CORRECT
+2019-09-20 16:23:35 DEBUG IQuizController:106 - Checking correct answer at index 1 + with answer + "one" CORRECT
+2019-09-20 16:23:35 DEBUG IQuizController:106 - Checking correct answer at index 2 + with answer + "two" CORRECT
+2019-09-20 16:23:35 DEBUG IQuizController:66 - Checking valid answer at index 0 with answer + "test" FALSE
+2019-09-20 16:23:35 DEBUG IQuizController:66 - Checking valid answer at index 1 with answer + "one" FALSE
+2019-09-20 16:23:35 DEBUG IQuizController:66 - Checking valid answer at index 2 with answer + "two" FALSE
+2019-09-20 16:23:35 DEBUG IQuizController:110 - Checking correct answer at index 0 + with answer + "test" FALSE
+2019-09-20 16:23:35 DEBUG IQuizController:110 - Checking correct answer at index 1 + with answer + "one" FALSE
+2019-09-20 16:23:35 DEBUG IQuizController:110 - Checking correct answer at index 2 + with answer + "two" FALSE
+2019-09-20 16:23:35 DEBUG IQuizController:34 - received onSubmit
+2019-09-20 16:23:35 DEBUG IQuizController:66 - Checking valid answer at index 0 with answer + "test" FALSE
+2019-09-20 16:23:35 DEBUG IQuizController:66 - Checking valid answer at index 1 with answer + "one" FALSE
+2019-09-20 16:23:35 DEBUG IQuizController:66 - Checking valid answer at index 2 with answer + "two" FALSE
+2019-09-20 16:23:35 DEBUG IQuizController:106 - Checking correct answer at index 0 + with answer + "test" CORRECT
+2019-09-20 16:23:35 DEBUG IQuizController:106 - Checking correct answer at index 1 + with answer + "one" CORRECT
+2019-09-20 16:23:35 DEBUG IQuizController:106 - Checking correct answer at index 2 + with answer + "two" CORRECT
+2019-09-20 16:23:35 DEBUG IQuizController:110 - Checking correct answer at index 0 + with answer + "test" FALSE
+2019-09-20 16:23:35 DEBUG IQuizController:110 - Checking correct answer at index 1 + with answer + "one" FALSE
+2019-09-20 16:23:35 DEBUG IQuizController:110 - Checking correct answer at index 2 + with answer + "two" FALSE
+2019-09-20 16:23:35 DEBUG IQuizController:34 - received onSubmit
+2019-09-20 16:23:35 DEBUG IQuizController:62 - Checking valid answer at index 0 with answer + "test" CORRECT
+2019-09-20 16:23:35 DEBUG IQuizController:62 - Checking valid answer at index 1 with answer + "one" CORRECT
+2019-09-20 16:23:35 DEBUG IQuizController:62 - Checking valid answer at index 2 with answer + "two" CORRECT
+2019-09-20 16:23:35 DEBUG IQuizController:106 - Checking correct answer at index 0 + with answer + "test" CORRECT
+2019-09-20 16:23:35 DEBUG IQuizController:106 - Checking correct answer at index 1 + with answer + "one" CORRECT
+2019-09-20 16:23:35 DEBUG IQuizController:106 - Checking correct answer at index 2 + with answer + "two" CORRECT
